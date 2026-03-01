@@ -3,7 +3,7 @@ cask "hbactl" do
   name "hbactl"
   desc "CLI to manage PostgreSQL pg_hba.conf safely"
   homepage "https://github.com/hrodrig/hbactl"
-  version "0.1.9"
+  version "0.2.2"
 
   livecheck do
     skip "Auto-generated on release."
@@ -15,12 +15,12 @@ cask "hbactl" do
     on_intel do
       url "https://github.com/hrodrig/hbactl/releases/download/v#{version}/hbactl_v#{version}_darwin_amd64.tar.gz",
         verified: "github.com/hrodrig/hbactl/"
-      sha256 "f7329597b3880ac11c599a679d94fc45bb8e94c8fdfe1a7a8d6ab04e1534975f"
+      sha256 "232d77b628b8b53fa979b894104e4cadfd35aa5f8c234e378eef5c79f4903d1d"
     end
     on_arm do
       url "https://github.com/hrodrig/hbactl/releases/download/v#{version}/hbactl_v#{version}_darwin_arm64.tar.gz",
         verified: "github.com/hrodrig/hbactl/"
-      sha256 "c0b83cbf0721526e039d015ed5ee6cafd7ee571c6208ae6d991fd4d4eaa3eca0"
+      sha256 "d6f39d75eef373a02ca8d6c72df640025d292174e79640473a6598982d382546"
     end
   end
 
@@ -28,12 +28,12 @@ cask "hbactl" do
     on_intel do
       url "https://github.com/hrodrig/hbactl/releases/download/v#{version}/hbactl_v#{version}_linux_amd64.tar.gz",
         verified: "github.com/hrodrig/hbactl/"
-      sha256 "5160014a02aff9b3841dd70abde168ebbf53e816a2fd1b94b05951024a0b0131"
+      sha256 "6767e0cf16612452828270c148a5b1383cc5d4ef8de3da420807b95f89143997"
     end
     on_arm do
       url "https://github.com/hrodrig/hbactl/releases/download/v#{version}/hbactl_v#{version}_linux_arm64.tar.gz",
         verified: "github.com/hrodrig/hbactl/"
-      sha256 "c69f8e513f151883d67dfe384d0c5d6f683f422d39977c5589003a942bbfb32f"
+      sha256 "6d3a453648ac2bcaf9f3f1420a0f513258f5ecaa09cb57cafdd26ef9825f15d5"
     end
   end
 
